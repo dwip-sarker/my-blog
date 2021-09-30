@@ -1,0 +1,242 @@
+/* CSS RESET  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background: #F8F9FA;
+}
+
+.blue {
+    background: blue;
+}
+
+.shadowed {
+    background: rgba(0, 0, 0, 0.219);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.header_area {
+    background: white;
+}
+
+/* NAVBAR STYLEING */
+#navbar {
+    width: 100%;
+    background: white;
+}
+
+.main_area {
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.336); */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid black;
+}
+
+.main_area .logo_area {
+    margin-right: auto;
+}
+
+.main_area .logo_area img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.main_area .nav_list {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 15px;
+
+}
+
+.list_item {
+    margin: 0px 15px;
+}
+
+.list_item a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_area .toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 17px;
+}
+
+.main_area .toggle .togg-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    margin-right: 10px;
+    /* display: none; */
+}
+
+.main_area .toggle .togg-btn i {
+    font-size: 30px;
+
+}
+
+.main_area .personal_area {
+    margin-top: 15px;
+}
+
+.personal_area .notification,
+.personal_area .profile {
+    background: none;
+    border: none;
+}
+
+.personal_area .notification i,
+.personal_area .profile i {
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+/* //SIDE NAV STYLEING */
+.side_nav {
+    width: 100%;
+    max-width: 250px;
+    background: rgb(241, 241, 241);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -270px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.open {
+    left: 0;
+}
+
+.profile_photo_area {
+    height: 115px;
+    width: 115px;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.info {
+    padding: 0 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.side-nav_list {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+.side-nav_list .list_item {
+    margin-left: 0;
+}
+
+.side-nav_list .list_item a {
+    color: rgb(0, 0, 0);
+}
+
+/*// Inpotent notice area  */
+
+.notice_area {
+    background: white;
+}
+
+.notice_area .container {
+    padding: 0;
+}
+
+marquee {
+    width: 100%;
+    direction: left;
+    border-bottom: 1px solid black;
+    padding: 0;
+    background: white;
+    margin-bottom: 10px;
+}
+
+/* CONTENT AREA STLEING STRTING */
+
+.content_area {
+    display: flex;
+}
+
+.main_content_area {
+    width: 75%;
+    padding: 15px;
+    height: 20px;
+}
+
+
+section {
+    padding: 10px 50px;
+    background: white;
+    border-radius: 10px;
+}
+
+.post_area {
+    display: flex;
+    padding: 30px 0px;
+    /* border-bottom: 1px solid black; */
+}
+
+.post_content_area {
+    display: flex;
+    flex-direction: column;
+}
+
+.post_area .img_area {
+    margin-right: 30px;
+}
+
+.post_area .img_area img {
+    width: 230px;
+    height: 150px;
+    object-fit: cover;
+    padding-top: 7px;
+}
+
+.post_area h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.post_area p {
+    font-size: 15px;
+}
+
+
+
+.time_comment {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    border-bottom: 1px solid #F0F2F5;
+    border-top: 1px solid #F0F2F5;
+    font-size: 13px;
+    padding: 5px 0;
+    color: rgb(168, 168, 168);
+}
+
+
+
+
+
+.content_area .sidebar {
+    width: 25%;
+    padding: 15px;
+}

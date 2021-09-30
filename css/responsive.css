@@ -1,0 +1,12 @@
+@media (max-width:480px) {
+
+    /* HIDE MAIN MENU  */
+    .menu_area {
+        display: none;
+    }
+
+    /* SHOW TOGGLE BUTTON  */
+    .main_area .toggle {
+        display: block;
+    }
+}
